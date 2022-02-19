@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.component-container {
+    width: 90%;
+    margin: 5rem auto;
+    height: 50rem;
+    display: flex;
+    gap: 2%;
+}
+
+.sub-container {
+    width: 7%;
+    height: 100%;
+    background-color: blanchedalmond;  
+    background-position: center;
+    background-size: cover;
+    border-radius: 5rem;
+    transition: ease 0.7s;
+}
+
+.first-card {
+    background-image: url(../Media/taj-mahal.jpg);
+}
+
+.second-card {
+    background-image: url(../Media/lake.jpg);
+}
+
+.third-card {
+    background-image: url(../Media/walk-way.jpg)
+}
+
+.fourth-card {
+    background-image: url(../Media/drop.jpg)
+}
+
+.fifth-card {
+    background-image: url(../Media/maldives.jpg)
+}
+
+.container-active {
+    width: 64% !important;
+}
